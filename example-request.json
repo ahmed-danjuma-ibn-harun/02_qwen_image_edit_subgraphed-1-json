@@ -1,0 +1,54 @@
+{
+  "input": {
+    "workflow": {
+      "60": {
+        "inputs": {
+          "filename_prefix": "ComfyUI",
+          "images": [
+            "124",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "SaveImage"
+        }
+      },
+      "78": {
+        "inputs": {
+          "image": "2_medium_dreadlocks-side-undercut_front_dreadlocks-side-undercut.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      },
+      "124": {
+        "inputs": {
+          "filename": "qwen_image_edit_2509_fp8_e4m3fn.safetensors",
+          "image": [
+            "78",
+            0
+          ],
+          "image2": [
+            "127",
+            0
+          ]
+        },
+        "class_type": "767ebc25-51dd-4e54-b53a-dd45e7079847",
+        "_meta": {
+          "title": "767ebc25-51dd-4e54-b53a-dd45e7079847"
+        }
+      },
+      "127": {
+        "inputs": {
+          "image": "masked_output (1).png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "LoadImage"
+        }
+      }
+    }
+  }
+}
